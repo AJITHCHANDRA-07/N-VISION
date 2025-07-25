@@ -1,0 +1,247 @@
+:root {
+  /* Strada.org inspired color palette */
+  --primary: #0a2540;
+  --primary-light: #1a3a5a;
+  --secondary: #f5f7fa;
+  --accent: #0071bc;
+  --background-dark: #0a2540;
+  --background-light: #f5f7fa;
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --shadow-color: rgba(10, 37, 64, 0.5);
+}
+
+/* Apply background and text colors globally */
+body {
+  background-color: var(--background-light);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Buttons and links */
+button, a {
+  color: var(--accent);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+/* Panels and cards */
+.panel {
+  background-color: var(--primary-light);
+  box-shadow: 0 4px 12px var(--shadow-color);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+}
+
+/* Hover effect for panels */
+.panel:hover {
+  box-shadow: 0 6px 18px var(--shadow-color);
+  transform: translateY(-4px);
+  transition: all 0.3s ease;
+}
+
+/* New styles for Student Dashboard page */
+
+.student-dashboard-container {
+  background: linear-gradient(135deg, #e0e7ff 0%, #f5f7fa 100%);
+  min-height: 100vh;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.container.mx-auto.px-4.py-8 {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  padding: 2rem 3rem;
+}
+
+.welcome-highlight {
+  font-size: 2.75rem;
+  font-weight: 900;
+  color: #1e40af; /* blue highlight */
+  margin-bottom: 0.75rem;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.domain-tabs {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  background: white;
+  border-radius: 1rem;
+}
+
+.domain-tabs .tab-education {
+  background-color: #e0e7ff; /* light indigo */
+  color: #3730a3; /* indigo */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.domain-tabs .tab-education:hover {
+  background-color: #c7d2fe;
+}
+
+.domain-tabs .tab-entrepreneurs {
+  background-color: #d1fae5; /* light green */
+  color: #065f46; /* green */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.domain-tabs .tab-entrepreneurs:hover {
+  background-color: #a7f3d0;
+}
+
+.domain-tabs .tab-business {
+  background-color: #fef3c7; /* light yellow */
+  color: #92400e; /* yellow/brown */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.domain-tabs .tab-business:hover {
+  background-color: #fde68a;
+}
+
+.domain-tabs .tab-sports {
+  background-color: #ede9fe; /* light purple */
+  color: #5b21b6; /* purple */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.domain-tabs .tab-sports:hover {
+  background-color: #c4b5fd;
+}
+
+.select-class-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.select-class-section:hover {
+  box-shadow: 0 12px 36px rgba(0,0,0,0.15);
+}
+
+.select-class-section h3 {
+  color: #1e3a8a; /* dark blue */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.detailed-content {
+  background-color: #f0f4f8;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  color: #1f2937;
+  font-family: 'Inter', sans-serif;
+}
+
+.detailed-content h2 {
+  color: #1e40af;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.detailed-content h3 {
+  color: #2563eb;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.detailed-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.detailed-content ul li {
+  position: relative;
+  padding-left: 2.5rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  color: #374151;
+}
+
+.detailed-content ul li::before {
+  content: ""; /* Removed problematic unicode content */
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.25rem;
+  color: #2563eb;
+}
+
+.welcome-highlight {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #1e40af; /* blue highlight */
+  margin-bottom: 0.5rem;
+}
+
+.domain-tabs .tab-education {
+  background-color: #e0e7ff; /* light indigo */
+  color: #3730a3; /* indigo */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.domain-tabs .tab-entrepreneurs {
+  background-color: #d1fae5; /* light green */
+  color: #065f46; /* green */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.domain-tabs .tab-business {
+  background-color: #fef3c7; /* light yellow */
+  color: #92400e; /* yellow/brown */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.domain-tabs .tab-sports {
+  background-color: #ede9fe; /* light purple */
+  color: #5b21b6; /* purple */
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.select-class-section {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.select-class-section h3 {
+  color: #1e3a8a; /* dark blue */
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
