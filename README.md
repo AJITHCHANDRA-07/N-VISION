@@ -1,7 +1,7 @@
 ![logo](https://plus.unsplash.com/premium_photo-1683121710572-7723bd2e235d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFpfGVufDB8fDB8fHwx)
 <h1 align="center">Hi ,I'm AJITHCHANDRA
 <h3 align="center">A passionate frontend, Backend developer, AI Annotator, and Python Developer skilled in building responsive UIs, annotating AI datasets, and developing intelligent solutions. Efficiently manages workflows with active use of AI tools for streamlined and high-impact project execution.</h3>
-<img align="right" alt="coding" width="600" src="https://i.pinimg.com/originals/d4/81/f3/d481f3c72e283309071f79e01b05c06d.gif"/>
+<img align="right" alt="coding" width="400" src="https://i.pinimg.com/originals/d4/81/f3/d481f3c72e283309071f79e01b05c06d.gif"/>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ajithchandra-07&label=Profile%20views&color=0e75b6&style=flat" alt="ajithchandra-07" /> </p>
 
 - 🔭 I’m currently working on **Ai Automation's and Automations.**
